@@ -1,5 +1,5 @@
 const webpack = require('webpack')
-const path = require('path')
+path = require('path')
 
 module.exports = {
   output: {
