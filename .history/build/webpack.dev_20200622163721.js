@@ -1,12 +1,6 @@
 const webpack = require('webpack')
-const path = require('path')
 
 module.exports = {
-  output: {
-    filename: 'js/[name]_[hash].js',
-    chunkFilename: 'js/[name]_[hash].js',
-    path: path.resolve('dist')
-  },
   devServer: {
     port: '8383',
     contentBase: './dist',
